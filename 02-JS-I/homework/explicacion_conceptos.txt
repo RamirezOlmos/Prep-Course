@@ -1,0 +1,22 @@
+
+ * Variables
+Variable es una forma de almacenar un valor para depues usar más tarde.
+
+ * Strings
+Es un tipo de dato en javascript. Las strings son bloques de texto,
+los cuales siempre se definen en comillas, pueden der comillas simples
+o dobles.
+
+ * Funciones (argumentos, `return`)
+Las funciones son objectos llamados callables objects u objectos invocables, 
+por lo que tiene las mismas propiedades que cualquier otro objecto. 
+Las funciones son muy importantes porque nos ayudan a no repetir código.
+
+ * Declaraciones `if`
+If es una palabra clave que sirve para controlar el fujo de nuestro programa.
+Nos permite verificar si un control de flujo es verdad (true) o falso (false).
+
+ * Valores booleanosFDA (`true`, `false`)
+
+ Los valores booleanos son tipos de datos los cuales tienen dos posibilidades
+ de ser verdaderos (true) o falsos (false).

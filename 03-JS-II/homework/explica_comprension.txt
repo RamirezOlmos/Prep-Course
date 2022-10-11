@@ -1,0 +1,12 @@
+
+* `for`
+For es un Loop que se utiliza para realizar tareas que se repiten basandose en
+una condicion de inicio.
+for (initialization; condition; finalExpression) {
+  // code
+}
+
+* `&&`, `||`, `!`
+
+Los operadores lógicos sirven para determinar la lógica entre
+variables o valores.
