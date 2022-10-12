@@ -1,0 +1,6 @@
+
+	* Arrays
+
+    Un array o matriz es una variable la cual se utiliza para guardar
+    elementos differentes. Se utilizan frecuentemente cuando queremos almacenar
+    una list de elementos para después accesarlos mediante una sola variable.

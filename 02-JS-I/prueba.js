@@ -1,22 +1,30 @@
 
-function doWhile(numero) {
-  //Implementar una función tal que vaya aumentando el valor recibido en 5 hasta un límite de 8 veces
-  //Retornar el valor final.
-  //Usar el bucle do ... while.
-    let result = numero;
-    let i = 1;
+function continueStatement(numero) {
+  //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
+  //Guardar cada nuevo valor en un array.    
+  //Devolver el array
+  //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua
+  //con la siguiente iteración
+  //Pista: usá el statement 'continue'
+  // Tu código:
+    let sum_by_2 = [];
+    var adding = numero;
 
-    do {
-        ++i;
-        result = result + 5;
-    } while (i < 9);
-
-    return result;
+    for(let i = 1; i < 11; i++){
+        if(i !== 5)
+            adding = adding + 2;
+            sum_by_2.push(adding);
+    }
+    return sum_by_2;
 }
 
-console.log(doWhile(1));
-console.log(doWhile(2));
-//console.log(doWhile(97));
-//console.log(doWhile(4000));
-//console.log(doWhile(170));
+let arr = [1, 120, 133, 3, 50, 60];
+let arr1 = [100, 120, 133, 3, 50, 200];
+
+console.log(continueStatement(2));
+//console.log(mayorACien(arr1));
+//console.log(tieneTresDigitos(1));
+//console.log(multiplicarArgumentos(1, 2, 3));
+//console.log(multiplicarArgumentos(5, 5, 5));
+//console.log(multiplicarArgumentos());
 
