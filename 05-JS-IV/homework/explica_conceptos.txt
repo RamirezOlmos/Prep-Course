@@ -1,0 +1,23 @@
+
+	* Objetos
+    Es una collecciones de propiedades. Los valores de las propiedades pueden ser
+    de cualquier tipo, incluyendo otros objetos, los cuales permiten crear 
+    estructuras de datos complejas.
+
+
+	* Propiedades
+    Las propiedades asocian una llave con un valor en un objeto. 
+
+
+	* Métodos
+    Los métodos son funciones guardadas en un objeto.
+
+
+	* Bucle `for…in`
+    El loop "for...in" sirve para iterar sobre cada par clave-valor en un objeto.
+
+
+	* Notación de puntos vs notación de corchetes
+    Se puede acceder a los valores de un objeto mediante la notación de puntos o la de corchetes.
+    También se pueden asignar valores a una llave dentro de un objeto utilizando una de estas anotaciones.
+    Los métodos pueden ser convocados con ambas notaciones.

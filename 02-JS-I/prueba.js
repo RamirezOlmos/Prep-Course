@@ -1,27 +1,31 @@
 
-function continueStatement(numero) {
-  //Iterar en un bucle aumentando en 2 el numero recibido hasta un límite de 10 veces.
-  //Guardar cada nuevo valor en un array.    
-  //Devolver el array
-  //Cuando el número de iteraciones alcance el valor 5, no se suma en ese caso y se continua
-  //con la siguiente iteración
-  //Pista: usá el statement 'continue'
+function agregarMetodoCalculoDescuento (producto) {
+  // Agregar un método (función) al objeto "producto" llamado "calcularPrecioDescuento"
+  // Este método debe multiplicar el "precio" del "producto" ("producto.precio" o "producto[precio]")
+  // y "porcentajeDeDescuento" para obtener el descuento
+  // El método resta el descuento del precio y devuelve el precio con descuento
+  // Devuelve el objeto "producto" al final de la función
+  // Ejemplo:
+  // producto.precio -> 20
+  // producto.porcentajeDeDescuento -> 0.2 (o simplemente ".2")
+  // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
-    let sum_by_2 = [];
-    var adding = numero;
-
-    for(let i = 1; i < 11; i++){
-        if(i !== 5)
-            adding = adding + 2;
-            sum_by_2.push(adding);
+    producto["calcularPrecioDescuento"] = function() {
+        var precio_descuento = 0;
+        precio_descuento = this.precio - (this.precio * this.porcentajeDeDescuento);
+        return precio_descuento;
     }
-    return sum_by_2;
+    return producto;
 }
 
 let arr = [1, 120, 133, 3, 50, 60];
-let arr1 = [100, 120, 133, 3, 50, 200];
+const car2 = { myCar: 'Saturn', precio: 25000, porcentajeDeDescuento: 0.10};
+const car3 = { myCar: 'Saturn', likes: 5};
+const car = { myCar: 'Saturn', posts: [car2, car3]};
+let arr1 = [car, car2];
 
-console.log(continueStatement(2));
+console.log(agregarMetodoCalculoDescuento(car2.calcularPrecioDescuento()));
+//console.log(actualizarPassword(car2, "1"));
 //console.log(mayorACien(arr1));
 //console.log(tieneTresDigitos(1));
 //console.log(multiplicarArgumentos(1, 2, 3));
