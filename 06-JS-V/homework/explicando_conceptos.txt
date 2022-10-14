@@ -1,0 +1,11 @@
+
+ `prototype`
+ Los prototypes son una forma de establecer métodos a los cuales tienen acceso los demas
+ objectos de esa clase. Esto es muy importante y útil debido a que permite utilizar los recursos
+ de memoria de la computadora eficientemente.
+
+ _Constructors_ (de Clases)
+ Classes son plantillas para crear objetos. Estas encapsulan datos los cuales pueden ser manipulados 
+ con código escrito dentro de la misma clase.
+ Las classes son funciones especiales y su syntax tiene dos componentes: class expresions y class 
+ declarations.
