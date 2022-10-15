@@ -40,15 +40,28 @@ function agregarMetodo(){
 }
 
 const carlito = crearInstanciaPersona("Carlos", "Ramirez", 32, "Sutano 9");
-let arr = [1, 120, 133, 3, 50, 60];
+let arr = ["arroyo", "canasto", "color", "arugula", "astuto", "carnal"];
 const car2 = { myCar: 'Saturn', precio: 25000, porcentajeDeDescuento: 0.10};
 const car3 = { myCar: 'Saturn', likes: 5};
 const car = { myCar: 'Saturn', posts: [car2, car3]};
 let arr1 = [car, car2];
 agregarMetodo();
 
-console.log(carlito.detalle());
-console.log(carlito.datos());
+
+function filter(array) {
+  //Filtrar todos los elementos del array que comiencen con la letra "a".
+  //Devolver un nuevo array con los elementos que cumplen la condición
+  //Tu código:
+    const result = array.filter(word => word.charAt(0) !== "a");
+    return result;
+}
+
+function devolver(num){
+      return num;
+  }
+
+console.log(filter(arr));
+//console.log(carlito.datos());
 //console.log(user.saludar());
 //console.log(mayorACien(arr1));
 //console.log(tieneTresDigitos(1));
