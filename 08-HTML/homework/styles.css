@@ -1,0 +1,41 @@
+body {
+    background-color: white;
+    background-image: url(https://htmlcolorcodes.com/assets/images/colors/baby-blue-color-solid-background-1920x1080.png);
+    background-size: cover;
+    
+    
+    }
+
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: lightblue;
+    padding: 50px;
+    border: 2px solid darkblue;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+
+}
+
+.divClass {
+    margin: auto;
+    text-align: center;
+}
